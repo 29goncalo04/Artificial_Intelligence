@@ -1,0 +1,10 @@
+i.a - A-B-D-H-I-E-J-K-C-F-L (para quando atinge o primeiro nó objetivo)
+i.b - A-C-F-L
+
+ii.a - A-B-C-D-E-F-G
+ii.b - A-C-G
+
+iii.a - A-B-D-H-I-E-J-K-C-G (A B D H I E C G)
+iii.b - A-C-G
+
+iv -> opção b
