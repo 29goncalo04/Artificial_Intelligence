@@ -128,6 +128,7 @@ class Graph:
         if start == end:
             custoT = self.calcula_custo(path)
             return (path, custoT)
+        
         for(adjacente,peso) in self.m_graph[start]:
             if adjacente not in visited:
                 resultado = self.procura_DFS(adjacente, end, path, visited)
@@ -140,8 +141,23 @@ class Graph:
     # Procura BFS  -- TO DO
     ######################################################
 
-    def procura_BFS(self, ):
-        
+    # def procura_BFS(self, start, end, path=list(), visited=set(), fila = list()):
+    #     path.append(start)
+    #     visited.add(start)
+    #     #fila.append(start)
+
+    #     if start==end:
+    #         return (path, self.calcula_custo(path))
+
+    #     for(adjacente, peso) in self.m_graph[start]:
+    #         if adjacente not in visited:
+    #             fila.append(adjacente)
+
+    #     start = fila.pop(0)
+    #     if not fila:
+    #         return None
+    #     return self.procura_BFS(start, end, path, visited, fila)
+
 
     ####################
     # função  getneighbours, devolve vizinhos de um nó

@@ -6,15 +6,23 @@ def main():
     g = Graph()
 
     #add nodes and connections
-    g.add_edge("s", "a", 2)
-    g.add_edge("s", "e", 2)
+    #g.add_edge("s", "a", 2)
+    #g.add_edge("s", "e", 2)
+    #g.add_edge("a", "b", 2)
+    #g.add_edge("e", "f", 5)
+    #g.add_edge("b", "c", 2)
+    #g.add_edge("f", "g", 2)
+    #g.add_edge("c", "d", 3)
+    #g.add_edge("g", "t", 2)
+    #g.add_edge("d", "t", 3)
+
     g.add_edge("a", "b", 2)
-    g.add_edge("e", "f", 5)
-    g.add_edge("b", "c", 2)
-    g.add_edge("f", "g", 2)
-    g.add_edge("c", "d", 3)
-    g.add_edge("g", "t", 2)
-    g.add_edge("d", "t", 3)
+    g.add_edge("a", "c", 3)
+    g.add_edge("b", "d", 4)
+    g.add_edge("b", "e", 5)
+    g.add_edge("c", "f", 6)
+
+
 
     
 

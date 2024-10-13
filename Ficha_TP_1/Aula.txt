@@ -4,7 +4,11 @@ i.b - A-C-F-L
 ii.a - A-B-C-D-E-F-G
 ii.b - A-C-G
 
-iii.a - A-B-D-H-I-E-J-K-C-G (A B D H I E C G)
+iii.a - A-B-C-D-G
 iii.b - A-C-G
 
 iv -> opção b
+    a -> falso porque o BFS também consegue encontrar soluções profundas
+    b -> verdade porque não tem que guardar todos os pais em memória como no BFS
+    c -> falso porque DFS não tem funções de desempenho
+    d -> falso porque a velocidade depende muito de cada caso
