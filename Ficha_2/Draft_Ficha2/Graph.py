@@ -181,7 +181,7 @@ class Graph:
     #    A* - To Do
     ##########################################
 
-        
+    def 
 
     ###################################3
     # devolve heuristica do nodo
@@ -199,7 +199,7 @@ class Graph:
     ##########################################
 
 
-    def greedy(self):
+    #def greedy(self):
 
 
 
